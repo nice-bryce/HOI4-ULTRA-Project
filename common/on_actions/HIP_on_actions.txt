@@ -12,6 +12,22 @@ on_actions = {
 				
 			}
 			every_country = {
+				limit = {
+					is_ai = yes
+				}
+				set_technology = {
+					token_resources_1 = 1
+				}
+				add_equipment_production = {
+					equipment = {
+						type = token_resources_equipment_1
+					}
+					requested_factories = 1
+					progress = 0.1
+					efficiency = 10
+				}
+			}
+			every_country = {
 				army_experience = 10
 				navy_experience = 25
 			}

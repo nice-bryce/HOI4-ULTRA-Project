@@ -1996,8 +1996,22 @@ technologies = {
 			camelry
 		}		
 	}
-	
+	############# resource_fix ##############
+
+	token_resources_1 = {
+		
+		allow = {
+			always = no
+		}
+
+		enable_equipments = {
+			token_resources_equipment_1
+		}
+
+		research_cost = 1
+	}
 	#### removed 
+	
 	
 	support_weapons = {
 
