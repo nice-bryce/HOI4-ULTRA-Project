@@ -165,7 +165,7 @@ guiTypes = {
 			name = "upgrade_branch_stat_1"
 			position = { x = 200 y = 134 }
 			font = "hoi_16mbs"
-			text = "Trucks Needed Per Heavy Battalion: [?trucks_needed]"
+			text = "Trucks Needed Per Heavy Battalion: [?trucks_needed|-0]"
 			format = left
 			maxWidth = 900	
 		}
@@ -173,7 +173,7 @@ guiTypes = {
 			name = "upgrade_branch_stat_2"
 			position = { x = 200 y = 150 }
 			font = "hoi_16mbs"
-			text = "Trucks Needed Per Light Battalion: [?light_trucks_needed]"
+			text = "Trucks Needed Per Light Battalion: [?light_trucks_needed|-0]"
 			format = left
 			maxWidth = 900	
 		}
@@ -181,7 +181,7 @@ guiTypes = {
 			name = "upgrade_branch_stat_3"
 			position = { x =200 y = 166 }
 			font = "hoi_16mbs"
-			text = "Supply Consumption Reduction: [?logistical_bonus|%]"
+			text = "Supply Consumption Reduction: [?logistical_bonus|-%]"
 			format = left
 			maxWidth = 900	
 		}
@@ -280,7 +280,7 @@ guiTypes = {
 			name = "upgrade_branch_stat_1"
 			position = { x = 200 y = 134 }
 			font = "hoi_16mbs"
-			text = "Support Needed Per HQ Company: [?support_needed]"
+			text = "Support Needed Per HQ Company: [?support_needed|-0]"
 			format = left
 			maxWidth = 900	
 		}
@@ -288,7 +288,7 @@ guiTypes = {
 			name = "upgrade_branch_stat_2"
 			position = { x =200 y = 150 }
 			font = "hoi_16mbs"
-			text = "Recovery Rate Modifier: [?signal_bonus|%]"
+			text = "Recovery Rate Modifier: [?signal_bonus|+%]"
 			format = left
 			maxWidth = 900	
 		}
@@ -296,7 +296,7 @@ guiTypes = {
 			name = "upgrade_branch_stat_3"
 			position = { x =200 y = 166 }
 			font = "hoi_16mbs"
-			text = "Planning Speed Modifier: [?signal_bonus|%]"
+			text = "Planning Speed Modifier: [?signal_bonus|+%]"
 			format = left
 			maxWidth = 900	
 		}
@@ -304,7 +304,7 @@ guiTypes = {
 			name = "upgrade_branch_stat_4"
 			position = { x =200 y = 182 }
 			font = "hoi_16mbs"
-			text = "Recon Modifier: [?signal_bonus|%]"
+			text = "Recon Modifier: [?signal_bonus|+%]"
 			format = left
 			maxWidth = 900	
 		}
